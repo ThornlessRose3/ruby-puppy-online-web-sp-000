@@ -8,6 +8,7 @@ class Dog
   @@all = []
   
   def initialize(name)
+    @name = name
     self.save
   end
   
@@ -27,7 +28,7 @@ class Dog
   end
 
   def save
-    return self.name
+    @@all.push{"#{self.@name}"
   end
   
   

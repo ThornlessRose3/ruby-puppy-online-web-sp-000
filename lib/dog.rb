@@ -8,8 +8,8 @@ class Dog
   @@all = []
   
   def initialize(name)
-    save(self.name)
     @name = name
+    save(self.name)
   end
   
   

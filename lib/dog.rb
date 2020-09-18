@@ -27,8 +27,7 @@ class Dog
     end
   end
 
-  
-  def save(name)
+  def save(Dog.name)
     @@all.push(name)
   end
   

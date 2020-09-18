@@ -9,7 +9,7 @@ class Dog
   
   def initialize(name)
     @name = name
-    save(self.name)
+    self.save
   end
   
   
@@ -27,8 +27,8 @@ class Dog
     end
   end
 
-  def save(name)
-    return name
+  def save
+    @@all.push(self.name)
   end
   
   

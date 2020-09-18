@@ -28,7 +28,7 @@ class Dog
   end
 
   def save
-    @@all.push("#{self.name}")
+    @@all.push("#{@name}")
   end
   
   

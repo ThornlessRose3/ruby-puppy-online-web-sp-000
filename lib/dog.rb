@@ -12,6 +12,7 @@ class Dog
     save(name)
   end
   
+  
   def self.all
     @@all
   end
@@ -25,6 +26,7 @@ class Dog
       puts x
     end
   end
+  
   private
   
   def save(name)

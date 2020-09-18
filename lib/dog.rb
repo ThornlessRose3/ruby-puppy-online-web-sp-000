@@ -8,13 +8,15 @@ class Dog
   
   def initialize(name)
     @name = name
-    
+    save(@name)
   end
   
   private
   
-  def save
-    @@all.push(@name)
+  def save(name)
+    @@all.push(name)
+  end
+  
   
   
   

@@ -26,8 +26,7 @@ class Dog
       puts x
     end
   end
-  
-  private
+
   
   def save(name)
     @@all.push(name)

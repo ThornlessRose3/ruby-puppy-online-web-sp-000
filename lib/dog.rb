@@ -28,7 +28,7 @@ class Dog
   end
 
   def save
-    return @name
+    return self[@name]
   end
   
   

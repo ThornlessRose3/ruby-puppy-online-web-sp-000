@@ -12,8 +12,8 @@ class Dog
   
   private
   
-  def #save
-  
+  def save
+    @@all.push(@name)
   
   
   
